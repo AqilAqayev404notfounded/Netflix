@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="icon" type="image/x-icon" href=".//assets/img/logo_netflix_icon_512.png">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    <div class="container">
+        
+        <img src="./assets/img/Netflix-Background.jpg" alt="" class="background">
+        <button class="c" onclick="redirectToLogin()">Sign in</button>
+        <img id="logo" src="./assets/img/pngwing.com.png" alt="" width="20px" class="logo">
+        <b class="bold">Unlimited movies,</b><br>
+        <b class="bold2">TV shows, and more</b><br>
+        <p class="documaent">Starts at EUR 7.99. Cancel anytime.</p><br>
+        <p class="documaent2">Ready to watch? Enter your email to create or restart your membership.</p><br>
+        <button class="Started" onclick="redirectToRegister()">Get Started ></button>
+        <input type="text" class="inputEmail" placeholder=" Enter your email to create" value="" >
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search for movies or TV shows">
+        <button id="searchButton">Search</button>
+    </div>
+        
+   <div class="CardSlider">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+      
+          ...
+        </div>
+      
+      </div>
+   </div>
+   <div  class="movie-cards"></div>
+
+    <div class="LoadMore">
+        <button>Load More</button>
+    </div>
+    
+    <footer>
+        <ul>
+            <li>FAQ</li>
+            <li>Investor Relations</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+        </ul>
+        <ul>
+            <li>Help Center</li>
+            <li>Jobs</li>
+            <li>Cookie Preferences</li>
+            <li>Legal Notices</li>
+        </ul>
+        <ul>
+            <li>Account</li>
+            <li>Ways to Watch</li>
+            <li>Corporate Information</li>
+            <li>Only on Netflix</li>
+        </ul>
+        <ul>
+            <li>Media Center</li>
+            <li>Terms of Use</li>
+            <li>Contact Us</li>
+        </ul>
+        <p>Netflix © 2024</p>
+    </footer>
+    <div id="movies-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/script/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+</html>
