@@ -60,8 +60,11 @@ const getData = async (page = 0) => {
 };
 
 const showMovieDetails = (movieId) => {
-  window.location.href = `detail.html?id=${movieId}`;
+  if (movieId) {
+      window.location.href = `detail.html?id=${movieId}`;
+  }
 };
+
 
 window.onload = () => {
   getData(currentPage);

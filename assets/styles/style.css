@@ -155,7 +155,7 @@ z-index: 2;
     height: 300px;
     position: relative;
     z-index: 1;
-    
+    cursor: pointer;
 }
 .card:hover{
     transform: scale(1.2);
